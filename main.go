@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/learngo/accounts"
 )
 
 func main() {
 
-	account := Account.NewAccount("Seo")
-	fmt.Println("Hello World")
+	account := accounts.Newaccount("Seo")
 	fmt.Println(account)
 
 }

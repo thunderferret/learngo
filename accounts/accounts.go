@@ -1,4 +1,4 @@
-package banking
+package accounts
 
 // Account Struct
 type Account struct {
@@ -7,7 +7,7 @@ type Account struct {
 }
 
 // NewAccount creates Account
-func NewAccount(owner string) *Account {
+func Newaccount(owner string) *Account {
 	account := Account{owner: owner, balance: 0}
 	return &account
 }
